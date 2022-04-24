@@ -95,7 +95,7 @@ const Form = () => {
 
         <div>
           {datalist.map((el, index) => {
-            const { name, surname } = el;
+            // const { name, surname } = el;
             return (
               <li key={index}>
                 <span>
